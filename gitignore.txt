@@ -1,0 +1,23 @@
+# .gitignore для аддона WoW
+
+# системный мусор
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# архивы сборок (собираются вручную в releases)
+*.zip
+*.rar
+*.7z
+
+# временные файлы редакторов
+*.bak
+*.tmp
+*~
+.vscode/
+.idea/
+
+# личные сохранения и логи
+WTF/
+Logs/
+*.log
